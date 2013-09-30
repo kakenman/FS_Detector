@@ -1,0 +1,5 @@
+0	[Silent_symbol]	Silent
+1	[FS_symbol]	FS
+1	[Noise_symbol]	Noise
+2	[Begin_symbol]	Silent
+3	[End_symbol]	Silent

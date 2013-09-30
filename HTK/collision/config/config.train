@@ -1,0 +1,6 @@
+# 音響モデル学習を行うときに，HCompV や HRest，HERest などに渡す config ファイル．
+
+SOURCEKIND = MFCC_E_D_Z         # 入力ファイルの種類の指定．
+TARGETKIND = MFCC_E_D_N_Z       # 学習で実際につかう特徴量の種類の指定．
+                                # _N は，Energy を捨てるという意味．ただし，Delta Energy は利用する．
+                                # 結局，特徴量の次元数は 26 ( 12MFCC + 1E + 12MFCC_D + 1E_D ) 次元から 25 ( 12MFCC + 12MFCC_D + 1E_D ) 次元になる．

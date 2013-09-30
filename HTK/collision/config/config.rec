@@ -1,0 +1,8 @@
+# 音声認識を行うときに，HVite に渡す config ファイル．
+
+SOURCEKIND = MFCC_E_D_Z         # 入力ファイルの種類の指定．
+TARGETKIND = MFCC_E_D_N_Z       # 認識で実際につかう特徴量の種類の指定．
+                                # _N は，Energy を捨てるという意味．ただし，Delta Energy は利用する．
+                                # 結局，特徴量の次元数は 26 ( 12MFCC + 1E + 12MFCC_D + 1E_D ) 次元から 25 ( 12MFCC + 12MFCC_D + 1E_D ) 次元になる．
+
+ALLOWXWRDEXP = F                # 先に出現した単語に依存させるかどうかの指定．HTKBook 参照．

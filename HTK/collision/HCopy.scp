@@ -1,0 +1,9 @@
+wav/Test_FS_5_noise_5.wav mfcc/Test_FS_5_noise_5.mfcc
+wav/Train_FS_10_1.wav mfcc/Train_FS_10_1.mfcc
+wav/Train_FS_10_2.wav mfcc/Train_FS_10_2.mfcc
+wav/Train_FS_10_3.wav mfcc/Train_FS_10_3.mfcc
+wav/Train_Noise_10_1.wav mfcc/Train_Noise_10_1.mfcc
+wav/Train_Noise_10_2.wav mfcc/Train_Noise_10_2.mfcc
+wav/Train_Noise_10_3.wav mfcc/Train_Noise_10_3.mfcc
+wav/Train_sil_1.wav mfcc/Train_sil_1.mfcc
+wav/Train_sil_2.wav mfcc/Train_sil_2.mfcc

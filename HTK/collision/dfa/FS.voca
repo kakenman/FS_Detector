@@ -1,0 +1,9 @@
+% Silent
+Silent_symbol	Silent
+% Event
+FS_symbol	FS
+Noise_symbol	Noise
+% NS_B
+Begin_symbol	Silent
+% NS_E
+End_symbol	Silent

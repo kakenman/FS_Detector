@@ -1,0 +1,6 @@
+$EVENT = FS | Noise ;
+
+(
+Silent < $EVENT Silent >
+)
+
